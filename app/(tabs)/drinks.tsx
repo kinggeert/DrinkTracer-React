@@ -1,9 +1,10 @@
-import { Image, StyleSheet, Platform, View, Text } from 'react-native';
+import { Link, router } from 'expo-router';
+import { Image, StyleSheet, Platform, View, Text, Button } from 'react-native';
 
-export default function HomeScreen() {
+export default function DrinksScreen() {
   return (
-    <View>
-      <Text>Hello there</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Hello there this is the drinks screen</Text>
     </View>
   );
 }
